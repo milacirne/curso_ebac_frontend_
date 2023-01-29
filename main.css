@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin: 80px auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 90vh;
+    border: 3px rgb(57, 102, 142) solid;
+    background-color: rgb(203, 203, 235);
+}
+
+form {
+    margin-top: 40px;
+}
+
+h1 {
+    color: rgb(57, 102, 142);
+    text-transform: uppercase;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    color: rgb(57, 102, 142);
+    font-size: 30px;
+    font-style: italic;
+}
+
+input,
+button {
+    display: block;
+    max-width: 90vh;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    margin-bottom: 8px;
+
+}
+
+button {
+    background-color: rgb(57, 102, 142);
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(77, 77, 177);
+    transition: 0.5s;
+}
+
+.error-message {
+    background-color: rgb(193, 75, 75);
+    padding: 8px;
+    margin-bottom: 8px;
+    font-size: 13px;
+    color: white;
+    display: none;
+}
+
+.success-message {
+    background-color: rgb(15, 85, 36);
+    padding: 8px;
+    margin-bottom: 8px;
+    font-size: 13px;
+    color: white;
+    display: none;
+}

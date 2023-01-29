@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparing Numbers</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Comparing Numbers</h1>
+        <h2>Form</h2>
+        <form id="form-comparison">
+            <input type="number" id="number-one" placeholder="Enter the first number here" required>
+            <input type="number" id="number-two" placeholder="Enter the second number here, bigger than the first number" required>
+            <p class="error-message">
+                Attention! The second number must be bigger than the first one!
+            </p>
+            <button type="submit" id="compare">Check</button>
+            <p class="success-message"></p>
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
