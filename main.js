@@ -1,4 +1,6 @@
 const form = document.getElementById("form-comparison");
+let firstNumber = document.getElementById("number-one");
+let secondNumber = document.getElementById("number-two");
 
 
 let validForm = false;
@@ -11,10 +13,10 @@ form.addEventListener("submit", function(e) {
     e.preventDefault();
 
     const successMessage = `Great! The second number is bigger than the first number.`;
-    const firstNumber = parseFloat(document.getElementById("number-one").value);
-    const secondNumber = parseFloat(document.getElementById("number-two").value);
+    let firstNumberParsed = parseFloat(firstNumber.value);
+    let secondNumberParsed = parseFloat(secondNumber.value);
 
-    validForm = isBigger(firstNumber, secondNumber);
+    validForm = isBigger(firstNumberParsed, secondNumberParsed);
     if (validForm) {
         const messageContainer = document.querySelector(".success-message");
         messageContainer.innerHTML = successMessage;
