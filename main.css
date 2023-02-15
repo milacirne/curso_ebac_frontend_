@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-top: 150px;
+    max-width: 700px;
+    width: 100%;
+    padding: 25px;
+}
+
+h1 {
+    margin-bottom: 25px;
+    box-shadow: 0 3px 0 0 rgb(56, 56, 225);
+}
+
+button {
+    margin-top: 25px;
+}
