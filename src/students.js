@@ -16,7 +16,8 @@ const students = [
 ];
 
 function approvedStudents() {
-    return students.filter(student => student.grade >= 6);
+    return students.filter(student => student.grade >= 6)
+        .map(student => student.name);
 };
 
 console.log(approvedStudents());
